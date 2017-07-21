@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreTelephony
-import Toaster
 
 class UIFunction: NSObject
 {
@@ -604,10 +603,7 @@ class UIFunction: NSObject
         return dictionary
     }
     
-    class func InternetUnAvailable()
-    {
-        Toast(text: "Internet Unavailable", duration: Delay.short).show()
-    }
+  
     
     class func convertArrayToJSON (array : NSArray) -> NSString
     {
